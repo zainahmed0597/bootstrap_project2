@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #fff;
+    --text-color: #555;
+    --title-color: #000;
+}
+
+.dark-theme {
+    --background-color: #000;
+    --text-color: #999;
+    --title-color: #fff;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background 0.8s, color 0.8s;
+}
