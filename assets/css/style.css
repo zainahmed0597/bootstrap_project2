@@ -1,24 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 :root {
-    --background-color: #fff;
-    --text-color: #555;
-    --title-color: #000;
+    --color0: #ffffff;
+    --color1: #000000;
+    --color2: #daac00;
+    --color3: #fcc302;
 }
 
-.dark-theme {
-    --background-color: #000;
-    --text-color: #999;
-    --title-color: #fff;
+
+/* Navbar start */
+
+#top_nav {
+    background-color: var(--color2);
+    padding: 1% 8%;
 }
 
-body {
-    background: var(--background-color);
-    color: var(--text-color);
-    transition: background 0.8s, color 0.8s;
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--color0);
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#searchbox {
+    background-color: var(--color3);
+    color: var(--color0);
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left: 9px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder {
+    color: var(--color0);
+}
+
+#searchbtn {
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: var(--color0);
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 10px 11px 0px #00000021;
 }
