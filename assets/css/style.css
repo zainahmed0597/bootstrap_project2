@@ -6,10 +6,12 @@
 }
 
 :root {
+    --shadow: #00000021;
     --color0: #ffffff;
     --color1: #000000;
     --color2: #daac00;
     --color3: #fcc302;
+    --color4: #00bec9;
 }
 
 
@@ -33,7 +35,7 @@
     border-radius: 0px;
     position: relative;
     left: 9px;
-    box-shadow: 5px 10px 11px 0px #00000021;
+    box-shadow: 5px 10px 11px 0px var(--shadow);
 }
 
 #searchbox::placeholder {
@@ -47,5 +49,83 @@
     color: var(--color0);
     border: 0px;
     border-radius: 0px;
-    box-shadow: 5px 10px 11px 0px #00000021;
+    box-shadow: 5px 10px 11px 0px var(--shadow);
 }
+
+@media only screen and (max-width: 768px) {
+    #searchform {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        /* left: -1px; */
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #top_nav {
+        padding: 0;
+    }
+}
+
+
+/* Banner */
+
+#banner {
+    background-color: var(--color3);
+    padding-bottom: 20px;
+}
+
+#bannertext h1 {
+    color: var(--color0);
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+#bannertext p {
+    color: var(--color0);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#banner-btn-1 {
+    color: var(--color0);
+    background-color: var(--color4);
+    border: 2px solid var(--color4);
+}
+
+#banner-btn-2 {
+    color: var(--color0);
+    border: 2px solid var(--color0);
+    margin-left: 15px;
+}
+
+
+/* Responsive Start here  */
+
+@media only screen and (max-width: 1377px) {
+    #bannertext h1 {
+        font-size: 50px;
+    }
+    #banner {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    #bannertext h1 {
+        font-size: 37px;
+    }
+    #bannerimg img {
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 409px) {
+    #bannertext h1 {
+        font-size: 28px;
+    }
+}
+
+
+/* Responsive End here  */

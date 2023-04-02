@@ -40,7 +40,7 @@
                     <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contect</a></li>
                 </ul>
-                <form class="d-flex" role="search">
+                <form class="d-flex" id="searchform" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="searchbox">
                     <button class="btn btn-outline-success" type="submit" id="searchbtn">
                         <i class="bi bi-search"></i>
@@ -50,7 +50,22 @@
         </div>
     </nav>
     <!-- NavBar end -->
-
+    <!-- Container-fluid -->
+    <div class="container-fluid">
+        <!-- Banner -->
+        <div class="row justify-content-center " id="banner">
+            <div class="col-md-6 col-11" id="bannertext">
+                <h1>First I wanted to be <br>a veterinarian</h1>
+                <p>Veterinarians provide medical care to animals and help keep them healthy. They play a vital role in promoting animal welfare and public health.
+                </p>
+                <button type="button" class="btn" id="banner-btn-1">Contect Us</button>
+                <button type="button" class="btn" id="banner-btn-2">Our Service</button>
+            </div>
+            <div class="col-md-4 d-none d-md-block" id="bannerimg">
+                <img src="/assets/images/dog.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
 
 
 </body>
