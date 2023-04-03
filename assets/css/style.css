@@ -68,7 +68,7 @@
 }
 
 
-/* Banner */
+/* Banner Start */
 
 #banner {
     background-color: var(--color3);
@@ -101,23 +101,99 @@
 }
 
 
+/* Banner End*/
+
+#service-text {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-btn {
+    color: var(--color0);
+    background-color: var(--color3);
+    border: 2 solid var( --color3);
+}
+
+#service-img {
+    padding: 5%;
+}
+
+
 /* Responsive Start here  */
 
-@media only screen and (max-width: 1377px) {
-    #bannertext h1 {
-        font-size: 50px;
+@media only screen and (max-width: 4000px) {
+    #bannertext {
+        align-self: center;
     }
-    #banner {
-        padding-bottom: 70px;
+    #bannerimg img {
+        padding-top: 100px;
     }
 }
 
-@media only screen and (max-width: 997px) {
+@media only screen and (max-width: 2560px) {
+    #bannertext {
+        align-self: center;
+    }
+    #bannertext h1 {
+        font-size: 90px;
+    }
+    #bannertext p {
+        font-size: 30px;
+    }
+    #bannerimg img {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    #bannertext h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 1680px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1377px) {
+    #banner {
+        padding-bottom: 70px;
+    }
+    #bannertext h1 {
+        font-size: 50px;
+    }
+    #bannerimg img {
+        padding-top: 100px;
+    }
+    #service-img {
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 997px) {
     #bannertext h1 {
         font-size: 37px;
     }
     #bannerimg img {
-        padding-top: 90px;
+        padding-top: 100px;
+    }
+    #service-img {
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 409px) and (max-width: 768px) {
+    #bannerimg img {
+        padding-top: 100px;
+    }
+    #service-img {
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 409px) and (max-width: 545px) {
+    #bannertext h1 {
+        font-size: 37px;
     }
 }
 
