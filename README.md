@@ -1,5 +1,7 @@
 # BootStrap 5 Project 2
 
-## Referance link: https://youtu.be/QE5oQh63gGE
+## Excellent work on creating a fully responsive website using Bootstrap 5 and custom CSS! The attention to detail and dedication to providing a seamless user experience is evident in every aspect of the design. Highly recommended for anyone looking for professional web development services!
 
-![alt text](/assets/images/Landing_page.png)
+Referance link: https://youtu.be/QE5oQh63gGE
+
+![alt text](/assets/images/screen_shot.png)
