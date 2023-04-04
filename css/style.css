@@ -130,8 +130,10 @@
 /* Counter Start */
 
 .counter-row {
-    padding-top: 50px;
+    /* padding-top: 50px;
     padding-bottom: 70px;
+    background-position: center;
+    background-size: cover; */
 }
 
 .counter-icon {
