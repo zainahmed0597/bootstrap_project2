@@ -205,6 +205,10 @@
     left: 6px;
 }
 
+#footer-search-box::placeholder {
+    color: var(--color0);
+}
+
 #footer-search-submit {
     background-color: var(--color4);
     color: var(--color0);
