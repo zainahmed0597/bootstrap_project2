@@ -6,4 +6,4 @@ Check here: https://zainahmed0597.github.io/bootstrap_project2/
 
 Referance link: https://youtu.be/QE5oQh63gGE
 
-![alt text](/assets/images/screen_shot.png)
+![alt text](images/screen_shot.png)
