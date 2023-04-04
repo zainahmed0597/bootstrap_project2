@@ -130,7 +130,7 @@
 /* Counter Start */
 
 #counter-section {
-    background-image: url(images\counter.png);
+    background-image: url("images\counter.png");
     padding-top: 50px;
     padding-bottom: 70px;
     background-position: center;
