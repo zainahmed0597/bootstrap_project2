@@ -129,8 +129,7 @@
 
 /* Counter Start */
 
-#counter-section {
-    background-image: url("images\counter.png");
+.counter-row {
     padding-top: 50px;
     padding-bottom: 70px;
     background-position: center;
